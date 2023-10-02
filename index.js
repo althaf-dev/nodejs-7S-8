@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
-app.engine('hbs',hbs.engine({extname:'.hbs',defaultLayout:'main',layoutsDir:__dirname+'/views/Layout/',partilasDir:__dirname+'/view/Partials/'}));
+app.engine('hbs',hbs.engine({extname:'hbs',layoutsDir:__dirname+'/views/Layout',partialsDir:__dirname+'/views/Partials/'}));
 // Use middleware to parse incoming requests with JSON and URL-encoded payloads
 app.use(express.json());
 app.use(express.urlencoded());
