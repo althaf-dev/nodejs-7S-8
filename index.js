@@ -2,7 +2,7 @@ const express = require("express");
 var path = require('path');
 var hbs = require('express-handlebars');
 var session = require("express-session");
-var db = require("./config/connection");
+var db = require("./configuration/connection");
 var fileUpload = require("express-fileupload");
 var session = require("express-session");
 
