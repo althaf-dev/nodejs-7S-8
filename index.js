@@ -9,7 +9,7 @@ var session = require("express-session");
 // Create an Express app and listen for incoming requests on port 3000
 const app = express();
 // const router = express.Router();
-var userRouter = require('./routes/user');
+var userRouter = require('./routes/users');
 var adminRouter = require('./routes/admin');
 const port = process.env.PORT || 3000;
 
