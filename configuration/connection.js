@@ -1,5 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://mongo:YRJsmoowTveKh54p1BDp@containers-us-west-61.railway.app:6508";
+const URL = "mongodb://mongo:YRJsmoowTveKh54p1BDp@containers-us-west-61.railway.app:6508";
 const dbName = 'MobileShop'
 state={
     db:null
